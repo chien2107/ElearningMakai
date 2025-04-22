@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  } 
+  .container {
+    display: flex;
+    height: 99vh;
+  } 
+  .login-section {
+    flex: 1;
+    padding: 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  } 
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }  
+  .logo h2 {
+    color: #f37022;
+    font-size: 24px;
+  }  
+  .logo span {
+    font-size: 14px;
+    color: #000;
+  }  
+  h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }  
+  p {
+    margin: 10px 0 30px;
+    font-size: 14px;
+    color: #555;
+  }  
+  form {
+    display: flex;
+    flex-direction: column;
+  }  
+  input {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }  
+  .forgot-password a {
+    color: #f37022;
+    font-size: 14px;
+    text-decoration: none;
+  }  
+  button {
+    background-color: #f37022;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }  
+  .image-section {
+    flex: 1;
+    position: relative;
+  }  
+  .overlay-text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #fff;
+    max-width: 400px;
+    margin-left: 135px;
+    text-align: center;
+  }  
+  .overlay-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .overlay-text p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
