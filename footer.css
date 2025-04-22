@@ -1,8 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-  }
-  
+  }  
   .footer {
     background: linear-gradient(to bottom right, #e85b2f, #de4c1f);
     color: white;
@@ -63,15 +62,15 @@ body {
   
   .quote strong {
     font-weight: bold;
-  }
-  
+  } 
   .copyright {
-    text-align: center;
     margin-top: 30px;
     font-size: 14px;
     opacity: 0.8;
+    margin-left: -55px;
   }
   .content{
     display: flex;
     gap: 10px;
+    margin-bottom: 15px;
   }
